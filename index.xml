@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>killmi.stの運営ブログ的なやつ</title>
-    <link>http://blog.killmi.st/</link>
+    <link>https://blog.killmi.st/</link>
     <description>Recent content on killmi.stの運営ブログ的なやつ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
     <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0900</lastBuildDate>
     
-	<atom:link href="http://blog.killmi.st/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://blog.killmi.st/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>さいしょのいっぽ</title>
-      <link>http://blog.killmi.st/post/2017-06-19/</link>
+      <link>https://blog.killmi.st/post/2017-06-19/</link>
       <pubDate>Mon, 19 Jun 2017 00:00:00 +0900</pubDate>
       
-      <guid>http://blog.killmi.st/post/2017-06-19/</guid>
+      <guid>https://blog.killmi.st/post/2017-06-19/</guid>
       <description> というわけで始めてみました
 killmi.st を立ち上げて約一ヶ月
 ブログ苦手な自分がどれくらい持つかなー
