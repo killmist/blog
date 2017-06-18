@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>killmi.stの運営ブログ的なやつ</title>
+    <link>http://blog.killmi.st/</link>
+    <description>Recent content on killmi.stの運営ブログ的なやつ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ja-jp</language>
+    <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0900</lastBuildDate>
+    
+	<atom:link href="http://blog.killmi.st/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>さいしょのいっぽ</title>
+      <link>http://blog.killmi.st/post/2017-06-19/</link>
+      <pubDate>Mon, 19 Jun 2017 00:00:00 +0900</pubDate>
+      
+      <guid>http://blog.killmi.st/post/2017-06-19/</guid>
+      <description> というわけで始めてみました
+killmi.st を立ち上げて約一ヶ月
+ブログ苦手な自分がどれくらい持つかなー
+とりあえず今日やったこと  CloudFlareを挟むようにしました
+nic.st でドメイン取ってるんだけどあそこだとAAAAレコードが使えなかったのでつらみがあった
+でもCloudFlareを挟むようにしたのでIPv6にも対応した yay! このブログを立ち上げた v1.4.3にバージョンアップした  お礼 超絶過疎にも関わらず定期的にトゥートしてくれてる @AIL_pk さんと @mamemomonga さんに感謝
+予定  ObservatoryのスコアをAまであげたい キルミー9巻が出た段階でもうちょっと人増えてほしい サイトのデザインをキルミーっぽい色にしたい  </description>
+    </item>
+    
+  </channel>
+</rss>
