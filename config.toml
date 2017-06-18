@@ -1,4 +1,4 @@
-baseURL = "http://blog.killmi.st/"
+baseURL = "https://blog.killmi.st/"
 languageCode = "ja-jp"
 title = "killmi.stの運営ブログ的なやつ"
 theme = "hugo-theme-slim"
