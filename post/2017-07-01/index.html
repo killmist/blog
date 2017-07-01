@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title> さいしょのいっぽ &middot; killmi.stの運営ブログ的なやつ </title>
+<title> 容量不足 &middot; killmi.stの運営ブログ的なやつ </title>
 
 
 <link rel="stylesheet" href="https://blog.killmi.st/css/slim.css">
@@ -38,41 +38,39 @@
     <div class="content">
       <div class="posts">
         <div class="post">
-          <h2 class="post-title"><a href="https://blog.killmi.st/post/2017-06-19/">さいしょのいっぽ</a></h2>
-          <span class="post-date">Jun 19, 2017 </span>
+          <h2 class="post-title"><a href="https://blog.killmi.st/post/2017-07-01/">容量不足</a></h2>
+          <span class="post-date">Jul 1, 2017 </span>
           <div class="post-content">
-            
+            <p>昨日サーバーにアクセスしてみるとあらら500が帰ってくる</p>
 
-<p>というわけで始めてみました<br />
-<a href="https://killmi.st">killmi.st</a> を立ち上げて約一ヶ月<br />
-ブログ苦手な自分がどれくらい持つかなー</p>
+<p>なにかと思って<code>SSH</code>で繋ごうとすると弾かれる</p>
 
-<h2 id="とりあえず今日やったこと">とりあえず今日やったこと</h2>
+<p>おっとこれはやばいんじゃないかと思いConoHaからログインする</p>
 
-<ul>
-<li>CloudFlareを挟むようにしました<br />
-<a href="https://nic.st">nic.st</a> でドメイン取ってるんだけどあそこだとAAAAレコードが使えなかったのでつらみがあった<br />
-でもCloudFlareを挟むようにしたのでIPv6にも対応した yay!</li>
-<li>このブログを立ち上げた</li>
-<li><code>v1.4.3</code>にバージョンアップした</li>
-</ul>
+<p><code>sshd</code>は問題なく起動してる… あっCloudflare有効にしたからそりゃつながらないわ</p>
 
-<h2 id="お礼">お礼</h2>
+<p>で<code>SSH</code>は解決したのでdockerのログを読んで見る</p>
 
-<p>超絶過疎にも関わらず定期的にトゥートしてくれてる <a href="https://killmi.st/@AIL_pk">@AIL_pk</a> さんと <a href="https://killmi.st/@mamemomonga">@mamemomonga</a> さんに感謝</p>
+<p>すると容量不足的なエラーメッセージが大量に…</p>
 
-<h2 id="予定">予定</h2>
+<p>20GBしかないからねー</p>
 
-<ul>
-<li><a href="https://observatory.mozilla.org/analyze.html?host=killmi.st">Observatory</a>のスコアをAまであげたい</li>
-<li>キルミー9巻が出た段階でもうちょっと人増えてほしい</li>
-<li>サイトのデザインをキルミーっぽい色にしたい</li>
-</ul>
+<p>で、どうしようこれは困ったぞと</p>
+
+<p>とりあえず<code>Docker</code>のいらんファイル消したらなんとかなるかなーと思い</p>
+
+<p><code>$ docker system prune</code> つーのを実行してみることに</p>
+
+<p>おお6GBくらい空きができたぞ</p>
+
+<p>しばらくこれで耐えしのぐか… (耐えしのげるか…?)</p>
+
+<p>二週間位で容量いっぱいになりそう…</p>
 
           </div>
         </div>
-        <div class="pagination">
-          <a class="btn previous " href="https://blog.killmi.st/post/2017-07-01/"> Prev</a>  
+        <div class="pagination"> 
+          <a class="btn next " href="https://blog.killmi.st/post/2017-06-19/"> Next</a> 
         </div>
       </div>
     </div>

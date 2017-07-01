@@ -6,10 +6,31 @@
     <description>Recent content on killmi.stの運営ブログ的なやつ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Mon, 19 Jun 2017 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.killmi.st/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>容量不足</title>
+      <link>https://blog.killmi.st/post/2017-07-01/</link>
+      <pubDate>Sat, 01 Jul 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://blog.killmi.st/post/2017-07-01/</guid>
+      <description>昨日サーバーにアクセスしてみるとあらら500が帰ってくる
+なにかと思ってSSHで繋ごうとすると弾かれる
+おっとこれはやばいんじゃないかと思いConoHaからログインする
+sshdは問題なく起動してる… あっCloudflare有効にしたからそりゃつながらないわ
+でSSHは解決したのでdockerのログを読んで見る
+すると容量不足的なエラーメッセージが大量に…
+20GBしかないからねー
+で、どうしようこれは困ったぞと
+とりあえずDockerのいらんファイル消したらなんとかなるかなーと思い
+$ docker system prune つーのを実行してみることに
+おお6GBくらい空きができたぞ
+しばらくこれで耐えしのぐか… (耐えしのげるか…?)
+二週間位で容量いっぱいになりそう…</description>
+    </item>
     
     <item>
       <title>さいしょのいっぽ</title>
