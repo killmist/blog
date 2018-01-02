@@ -4,7 +4,7 @@
 <head>
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
-<title> 容量不足 &middot; killmi.stの運営ブログ的なやつ </title>
+<title> はい &middot; killmi.stの運営ブログ的なやつ </title>
 
 
 <link rel="stylesheet" href="https://blog.killmi.st/css/slim.css">
@@ -38,40 +38,46 @@
     <div class="content">
       <div class="posts">
         <div class="post">
-          <h2 class="post-title"><a href="https://blog.killmi.st/post/2017-07-01/">容量不足</a></h2>
-          <span class="post-date">Jul 1, 2017 </span>
+          <h2 class="post-title"><a href="https://blog.killmi.st/post/2017-10-29/">はい</a></h2>
+          <span class="post-date">Oct 29, 2017 </span>
           <div class="post-content">
-            <p>昨日サーバーにアクセスしてみるとあらら500が帰ってくる</p>
+            
 
-<p>なにかと思って<code>SSH</code>で繋ごうとすると弾かれる</p>
+<p>はい</p>
 
-<p>おっとこれはやばいんじゃないかと思いConoHaからログインする</p>
+<p>ブログの更新サボりました</p>
 
-<p><code>sshd</code>は問題なく起動してる… あっCloudflare有効にしたからそりゃつながらないわ</p>
+<h1 id="やったこと">やったこと</h1>
 
-<p>で<code>SSH</code>は解決したのでdockerのログを読んで見る</p>
+<h2 id="鯖のssd容量増やした">鯖のSSD容量増やした</h2>
 
-<p>すると容量不足的なエラーメッセージが大量に…</p>
+<p>ConoHaのVPS使ってるので最低プランが200GBの毎月1500円しかなくて高かった<br />
+けど寄付してくれる人が出てきてくれて<strong>(圧倒的感謝)</strong>まかなえた</p>
 
-<p>20GBしかないからねー</p>
+<p>200GBが埋まるのはいつのことやら</p>
 
-<p>で、どうしようこれは困ったぞと</p>
+<h2 id="絵文字追加した">絵文字追加した</h2>
 
-<p>とりあえず<code>Docker</code>のいらんファイル消したらなんとかなるかなーと思い</p>
+<p>とりあえずキルゴとか追加した</p>
 
-<p><code>$ docker system prune</code> つーのを実行してみることに</p>
+<p>生成するのに使ったコードは<a href="https://github.com/killmist/emoji/blob/master/killgo/killgo.go">この辺</a>においた</p>
 
-<p>おお6GBくらい空きができたぞ</p>
+<h2 id="初めてのbot制作">初めてのBot制作</h2>
 
-<p>しばらくこれで耐えしのぐか… (耐えしのげるか…?)</p>
+<p>カヅホ神のツイートをリレーするbotを作った(ただし動作未確認)</p>
 
-<p>二週間位で容量いっぱいになりそう…</p>
+<p><a href="https://github.com/aoisensi/twi2don">作ったツールです</a></p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>Golang最高</p>
+
+<p><del>はたしてこんな記事でいいのか</del></p>
 
           </div>
         </div>
-        <div class="pagination">
-          <a class="btn previous " href="https://blog.killmi.st/post/2017-10-29/"> Prev</a>  
-          <a class="btn next " href="https://blog.killmi.st/post/2017-06-19/"> Next</a> 
+        <div class="pagination"> 
+          <a class="btn next " href="https://blog.killmi.st/post/2017-07-01/"> Next</a> 
         </div>
       </div>
     </div>

@@ -6,10 +6,29 @@
     <description>Recent content on killmi.stの運営ブログ的なやつ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Sat, 01 Jul 2017 00:00:00 +0900</lastBuildDate>
+    <lastBuildDate>Sun, 29 Oct 2017 00:00:00 +0900</lastBuildDate>
     
 	<atom:link href="https://blog.killmi.st/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>はい</title>
+      <link>https://blog.killmi.st/post/2017-10-29/</link>
+      <pubDate>Sun, 29 Oct 2017 00:00:00 +0900</pubDate>
+      
+      <guid>https://blog.killmi.st/post/2017-10-29/</guid>
+      <description>はい
+ブログの更新サボりました
+やったこと 鯖のSSD容量増やした ConoHaのVPS使ってるので最低プランが200GBの毎月1500円しかなくて高かった
+けど寄付してくれる人が出てきてくれて(圧倒的感謝)まかなえた
+200GBが埋まるのはいつのことやら
+絵文字追加した とりあえずキルゴとか追加した
+生成するのに使ったコードはこの辺においた
+初めてのBot制作 カヅホ神のツイートをリレーするbotを作った(ただし動作未確認)
+作ったツールです
+まとめ Golang最高
+はたしてこんな記事でいいのか</description>
+    </item>
     
     <item>
       <title>容量不足</title>
